@@ -353,3 +353,11 @@ ssl_session_cache shared:SSL:10m;
 ssl_dhparam /etc/ssl/private/dhparams.pem;
 add_header Strict-Transport-Security "max-age=31536000; includeSubdomains; preload";
 ```
+
+## RAID 
+
+https://www.scaleway.com/en/docs/elastic-metal/troubleshooting/replace-failed-drive-software-raid/
+
+```bash
+cat /proc/mdstat
+```
