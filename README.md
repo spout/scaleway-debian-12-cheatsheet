@@ -304,6 +304,12 @@ sudo run-parts --test /etc/cron.daily
 sudo apt install supervisor
 ```
 
+## CRON
+
+```bash
+sudo apt install cron
+```
+
 ## HTTPS / Let's encrypt
 
 https://certbot.eff.org/instructions?ws=other&os=snap
